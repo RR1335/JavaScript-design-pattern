@@ -1,4 +1,4 @@
-#  JavaScript-design-pattern
+
  JavaScript design pattern ，23 Class 
 
 第一： 开发环境
@@ -29,5 +29,12 @@
     
     — 允许用户定制环境
     — 操作系统内核小而轻量化
-    — 
+    — 各部分之和大于整体
     
+第五： SOLID 五大设计原则
+
+    S —— 单一职责
+    O —— 开放封闭
+    L —— 李氏置换
+    I —— 接口独立
+    D —— 依赖导致
