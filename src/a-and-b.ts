@@ -1,7 +1,9 @@
 class myPeople {
     name:string
-    constructor(name) {
+    house: string
+    constructor(name,house) {
         this.name = name
+        this.house = house
     }
 
     SaySomething() {
@@ -10,8 +12,8 @@ class myPeople {
 }
 
 class A  extends myPeople {
-    constructor(name) {
-        super(name)
+    constructor(name,house) {
+        super(name,house)
     }
 
     SaySomething(): void {
@@ -20,8 +22,8 @@ class A  extends myPeople {
 }
 
 class B  extends myPeople {
-    constructor(name) {
-        super(name)
+    constructor(name,house) {
+        super(name,house)
     }
 
     SaySomething(): void {
@@ -29,7 +31,8 @@ class B  extends myPeople {
     }
 }
 
-let  a = new A('a')
+let aHouse = new House('beijing')
+let  a = new A('a',aHouse)
 a.SaySomething()
 let b = new B ('b')
 b.SaySomething()
